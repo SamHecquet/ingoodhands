@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In Good Hands</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background-color: white;
+    }
+
+    /* Centered link */
+    .center-link {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-decoration: none;
+      color: #000000;
+
+        font-family: Helvetica Neue;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -2%;
+        text-align: center;
+        vertical-align: middle;
+        text-transform: uppercase;
+    }
+
+    .center-link:visited,
+    .center-link:hover,
+    .center-link:active {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    /* Icon positions */
+    .icon1 {
+      position: absolute;
+      width: 190px; 
+    }
+    .icon2 {
+      position: absolute;
+      width: 150px; 
+    }
+
+    .icon-left {
+      top: 20px;
+      left: 20px;
+    }
+
+    .icon-right {
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top-left icon placeholder -->
+  <img src="hand-top.svg" alt="Left Icon" class="icon1 icon-left" />
+
+  <!-- Top-right icon placeholder -->
+  <img src="hand-bottom.svg" alt="Right Icon" class="icon2 icon-right" />
+
+  <!-- Centered text link -->
+  <a href="mailto:example@example.com" target="_blank" class="center-link">IN GOOD HANDS</a>
+
+</body>
+</html>
